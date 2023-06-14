@@ -1,0 +1,38 @@
+html {
+    background-color: #413c3c;
+    background-image: url(./assets/layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Bungee', cursive;
+}
+
+span {
+    color: #FFFFFF;
+}
+
+body {
+    height: 75vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    height: 25px;
+}
+
+button {
+    height: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#timeInMinutes {
+    width: 65px;;
+}
+
+button:hover {
+    background-color: #5c5a5a;
+}
