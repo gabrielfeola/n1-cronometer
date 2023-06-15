@@ -1,6 +1,6 @@
 function startTimer() {
     const timeInMinutes = document.getElementById('timeInMinutes').value;
-    const timeInMilliseconds = timeInMinutes * 1000;
+    const timeInMilliseconds = timeInMinutes * 60000;
     const ticketLabel = document.getElementById('ticketLabel').value;
 
     if (timeInMinutes > 0 && timeInMinutes != '') {
