@@ -1,6 +1,6 @@
 html {
     background-color: #413c3c;
-    background-image: url(./assets/layered-waves-haikei.svg);
+    background-image: url(./assets/layered-waves.svg);
     background-repeat: no-repeat;
     background-size:cover;
     font-family: 'Bungee', cursive;
@@ -35,4 +35,16 @@ button {
 
 button:hover {
     background-color: #5c5a5a;
+}
+
+@media screen and (max-width: 768px) {
+
+    html {
+        background-size: 150vh;
+    }
+
+    #ticketLabel {
+        width: 125px;
+    }
+
 }
